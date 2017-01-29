@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49CA14651E3E8AC8003D7D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA14641E3E8AC8003D7D1B /* AppDelegate.swift */; };
+		49CA14671E3E8AC8003D7D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA14661E3E8AC8003D7D1B /* ViewController.swift */; };
+		49CA146A1E3E8AC8003D7D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CA14681E3E8AC8003D7D1B /* Main.storyboard */; };
+		49CA146C1E3E8AC8003D7D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CA146B1E3E8AC8003D7D1B /* Assets.xcassets */; };
+		49CA146F1E3E8AC8003D7D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CA146D1E3E8AC8003D7D1B /* LaunchScreen.storyboard */; };
+		49CA147A1E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA14791E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests.swift */; };
+		49CA14851E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CA14841E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49CA14761E3E8AC9003D7D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CA14591E3E8AC8003D7D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CA14601E3E8AC8003D7D1B;
+			remoteInfo = shakeGestureFoodDecider;
+		};
+		49CA14811E3E8AC9003D7D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CA14591E3E8AC8003D7D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CA14601E3E8AC8003D7D1B;
+			remoteInfo = shakeGestureFoodDecider;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49CA14611E3E8AC8003D7D1B /* shakeGestureFoodDecider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shakeGestureFoodDecider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CA14641E3E8AC8003D7D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49CA14661E3E8AC8003D7D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49CA14691E3E8AC8003D7D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49CA146B1E3E8AC8003D7D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49CA146E1E3E8AC8003D7D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49CA14701E3E8AC8003D7D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CA14751E3E8AC8003D7D1B /* shakeGestureFoodDeciderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shakeGestureFoodDeciderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CA14791E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeGestureFoodDeciderTests.swift; sourceTree = "<group>"; };
+		49CA147B1E3E8AC9003D7D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CA14801E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shakeGestureFoodDeciderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CA14841E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shakeGestureFoodDeciderUITests.swift; sourceTree = "<group>"; };
+		49CA14861E3E8AC9003D7D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49CA145E1E3E8AC8003D7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CA14721E3E8AC8003D7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CA147D1E3E8AC9003D7D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49CA14581E3E8AC8003D7D1B = {
+			isa = PBXGroup;
+			children = (
+				49CA14631E3E8AC8003D7D1B /* shakeGestureFoodDecider */,
+				49CA14781E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests */,
+				49CA14831E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests */,
+				49CA14621E3E8AC8003D7D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49CA14621E3E8AC8003D7D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CA14611E3E8AC8003D7D1B /* shakeGestureFoodDecider.app */,
+				49CA14751E3E8AC8003D7D1B /* shakeGestureFoodDeciderTests.xctest */,
+				49CA14801E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CA14631E3E8AC8003D7D1B /* shakeGestureFoodDecider */ = {
+			isa = PBXGroup;
+			children = (
+				49CA14641E3E8AC8003D7D1B /* AppDelegate.swift */,
+				49CA14661E3E8AC8003D7D1B /* ViewController.swift */,
+				49CA14681E3E8AC8003D7D1B /* Main.storyboard */,
+				49CA146B1E3E8AC8003D7D1B /* Assets.xcassets */,
+				49CA146D1E3E8AC8003D7D1B /* LaunchScreen.storyboard */,
+				49CA14701E3E8AC8003D7D1B /* Info.plist */,
+			);
+			path = shakeGestureFoodDecider;
+			sourceTree = "<group>";
+		};
+		49CA14781E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests */ = {
+			isa = PBXGroup;
+			children = (
+				49CA14791E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests.swift */,
+				49CA147B1E3E8AC9003D7D1B /* Info.plist */,
+			);
+			path = shakeGestureFoodDeciderTests;
+			sourceTree = "<group>";
+		};
+		49CA14831E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49CA14841E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.swift */,
+				49CA14861E3E8AC9003D7D1B /* Info.plist */,
+			);
+			path = shakeGestureFoodDeciderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49CA14601E3E8AC8003D7D1B /* shakeGestureFoodDecider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CA14891E3E8AC9003D7D1B /* Build configuration list for PBXNativeTarget "shakeGestureFoodDecider" */;
+			buildPhases = (
+				49CA145D1E3E8AC8003D7D1B /* Sources */,
+				49CA145E1E3E8AC8003D7D1B /* Frameworks */,
+				49CA145F1E3E8AC8003D7D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shakeGestureFoodDecider;
+			productName = shakeGestureFoodDecider;
+			productReference = 49CA14611E3E8AC8003D7D1B /* shakeGestureFoodDecider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49CA14741E3E8AC8003D7D1B /* shakeGestureFoodDeciderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CA148C1E3E8AC9003D7D1B /* Build configuration list for PBXNativeTarget "shakeGestureFoodDeciderTests" */;
+			buildPhases = (
+				49CA14711E3E8AC8003D7D1B /* Sources */,
+				49CA14721E3E8AC8003D7D1B /* Frameworks */,
+				49CA14731E3E8AC8003D7D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CA14771E3E8AC9003D7D1B /* PBXTargetDependency */,
+			);
+			name = shakeGestureFoodDeciderTests;
+			productName = shakeGestureFoodDeciderTests;
+			productReference = 49CA14751E3E8AC8003D7D1B /* shakeGestureFoodDeciderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49CA147F1E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CA148F1E3E8AC9003D7D1B /* Build configuration list for PBXNativeTarget "shakeGestureFoodDeciderUITests" */;
+			buildPhases = (
+				49CA147C1E3E8AC9003D7D1B /* Sources */,
+				49CA147D1E3E8AC9003D7D1B /* Frameworks */,
+				49CA147E1E3E8AC9003D7D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CA14821E3E8AC9003D7D1B /* PBXTargetDependency */,
+			);
+			name = shakeGestureFoodDeciderUITests;
+			productName = shakeGestureFoodDeciderUITests;
+			productReference = 49CA14801E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49CA14591E3E8AC8003D7D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.ParanoidPenguinProductions;
+				TargetAttributes = {
+					49CA14601E3E8AC8003D7D1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FV58CK5TAD;
+						ProvisioningStyle = Automatic;
+					};
+					49CA14741E3E8AC8003D7D1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FV58CK5TAD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49CA14601E3E8AC8003D7D1B;
+					};
+					49CA147F1E3E8AC9003D7D1B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FV58CK5TAD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49CA14601E3E8AC8003D7D1B;
+					};
+				};
+			};
+			buildConfigurationList = 49CA145C1E3E8AC8003D7D1B /* Build configuration list for PBXProject "shakeGestureFoodDecider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49CA14581E3E8AC8003D7D1B;
+			productRefGroup = 49CA14621E3E8AC8003D7D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49CA14601E3E8AC8003D7D1B /* shakeGestureFoodDecider */,
+				49CA14741E3E8AC8003D7D1B /* shakeGestureFoodDeciderTests */,
+				49CA147F1E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49CA145F1E3E8AC8003D7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CA146F1E3E8AC8003D7D1B /* LaunchScreen.storyboard in Resources */,
+				49CA146C1E3E8AC8003D7D1B /* Assets.xcassets in Resources */,
+				49CA146A1E3E8AC8003D7D1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CA14731E3E8AC8003D7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CA147E1E3E8AC9003D7D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49CA145D1E3E8AC8003D7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CA14671E3E8AC8003D7D1B /* ViewController.swift in Sources */,
+				49CA14651E3E8AC8003D7D1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CA14711E3E8AC8003D7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CA147A1E3E8AC9003D7D1B /* shakeGestureFoodDeciderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CA147C1E3E8AC9003D7D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CA14851E3E8AC9003D7D1B /* shakeGestureFoodDeciderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49CA14771E3E8AC9003D7D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CA14601E3E8AC8003D7D1B /* shakeGestureFoodDecider */;
+			targetProxy = 49CA14761E3E8AC9003D7D1B /* PBXContainerItemProxy */;
+		};
+		49CA14821E3E8AC9003D7D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CA14601E3E8AC8003D7D1B /* shakeGestureFoodDecider */;
+			targetProxy = 49CA14811E3E8AC9003D7D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49CA14681E3E8AC8003D7D1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CA14691E3E8AC8003D7D1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49CA146D1E3E8AC8003D7D1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CA146E1E3E8AC8003D7D1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49CA14871E3E8AC9003D7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49CA14881E3E8AC9003D7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49CA148A1E3E8AC9003D7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = shakeGestureFoodDecider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParanoidPenguinProductions.shakeGestureFoodDecider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49CA148B1E3E8AC9003D7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = shakeGestureFoodDecider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParanoidPenguinProductions.shakeGestureFoodDecider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49CA148D1E3E8AC9003D7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = shakeGestureFoodDeciderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParanoidPenguinProductions.shakeGestureFoodDeciderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shakeGestureFoodDecider.app/shakeGestureFoodDecider";
+			};
+			name = Debug;
+		};
+		49CA148E1E3E8AC9003D7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = shakeGestureFoodDeciderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParanoidPenguinProductions.shakeGestureFoodDeciderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shakeGestureFoodDecider.app/shakeGestureFoodDecider";
+			};
+			name = Release;
+		};
+		49CA14901E3E8AC9003D7D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = shakeGestureFoodDeciderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParanoidPenguinProductions.shakeGestureFoodDeciderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shakeGestureFoodDecider;
+			};
+			name = Debug;
+		};
+		49CA14911E3E8AC9003D7D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FV58CK5TAD;
+				INFOPLIST_FILE = shakeGestureFoodDeciderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ParanoidPenguinProductions.shakeGestureFoodDeciderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shakeGestureFoodDecider;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49CA145C1E3E8AC8003D7D1B /* Build configuration list for PBXProject "shakeGestureFoodDecider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CA14871E3E8AC9003D7D1B /* Debug */,
+				49CA14881E3E8AC9003D7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CA14891E3E8AC9003D7D1B /* Build configuration list for PBXNativeTarget "shakeGestureFoodDecider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CA148A1E3E8AC9003D7D1B /* Debug */,
+				49CA148B1E3E8AC9003D7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49CA148C1E3E8AC9003D7D1B /* Build configuration list for PBXNativeTarget "shakeGestureFoodDeciderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CA148D1E3E8AC9003D7D1B /* Debug */,
+				49CA148E1E3E8AC9003D7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49CA148F1E3E8AC9003D7D1B /* Build configuration list for PBXNativeTarget "shakeGestureFoodDeciderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CA14901E3E8AC9003D7D1B /* Debug */,
+				49CA14911E3E8AC9003D7D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49CA14591E3E8AC8003D7D1B /* Project object */;
+}
